@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY TEMPERATURE CONVERTER WEBSITE</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div>
+        <h1>TEMPERATURE CONVERTER</h1>
+        <input type="number" id="textbox" placeholder="Enter the Temperature"><br>
+        <input type="radio" id="CtoF" name="unit"><label>Celsius👉Farenheit</label><br>
+        <input type="radio" id="FtoC" name="unit"><label>Farenheit👉Celsius</label><br>
+        <input type="radio" id="CtoK" name="unit"><label>Celsius👉Kelvin</label><br>
+        <input type="radio" id="KtoC" name="unit"><label>Kelvin👉Celsius</label><br>
+        <input type="radio" id="FtoK" name="unit"><label>Farenheit👉Kelvin</label><br>
+        <input type="radio" id="KtoF" name="unit"><label>Kelvin👉Farenheit</label><br>
+
+        <button type="button" onclick="convert()">Submit</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="temperature.js"></script>
+    
+</body>
+</html>
